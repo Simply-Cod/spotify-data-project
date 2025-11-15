@@ -2,7 +2,12 @@
 This is a small learning project for anyone who wants to learn parsing JSON data.
 Using spotify's data download feature, you can look at your entire listening history and write code to analyze it.
 
-## What you will need
+## Challenges
+**Easy:** Get your top 5 songs for any given year
+
+**Harder:** Get your all time top 5 songs
+
+### What you will need
 - A spotify account
 - A way to parse json in your language of choice (Python, C#, Go, etc.)
 
@@ -87,7 +92,7 @@ track
 
 - **user_agent_decrypted:**  This field contains the user agent used when streaming the
 track (e.g. a browser, like Mozilla Firefox, or Safari)
-- **master_metadata_track:**  _name This field is the name of the track.
+- **master_metadata_track_name:**  This field is the name of the track.
 - **master_metadata_album_artist_name:**  This field is the name of the artist, band or podcast.
 - **master_metadata_album_album_name:**  This field is the name of the album of the track.
 - **spotify_track_uri:**  A Spotify URI, uniquely identifying the track in the form of
@@ -119,8 +124,3 @@ private session (“True”) or not (“False”).
 
 **Note**
 if you have an older account the username field might not be there. but it has not cause any problems for me.
-
-### Challenges
-**Easy:** Get your top 5 songs for any given year
-
-**Harder:** Get your all time top 5 songs
