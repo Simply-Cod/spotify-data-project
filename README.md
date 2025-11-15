@@ -15,7 +15,7 @@ They say this might take up to 30 days, but i recieved mine in 24 hours.
 ### JSON Files
 You will recieve a zip file containing all your data, extract it.
 You will most likely have one file pr year, if you stream alot of music then they might be split in to multible files.
-the json object looks like this:
+the json object looks like this (according to spotify):
 ```json
 {
 "ts": "YYY-MM-DD 13:30:30",
@@ -40,6 +40,35 @@ the json object looks like this:
 "offline_timestamp": _________,
 "incognito_mode": null/true/false,
 }
+```
+The ones i recieved looked like this
+
+```json
+{
+    "ts": "YYY-MM-DD 13:30:30",
+    "platform": "_________",
+    "ms_played": _________,
+    "conn_country": "_________",
+    "ip_addr": "_________",
+    "master_metadata_track_name": "_________",
+    "master_metadata_album_artist_name": "_________",
+    "master_metadata_album_album_name": "_________",
+    "spotify_track_uri": "_________",
+    "episode_name": null/true/false,
+    "episode_show_name": null/true/false,
+    "spotify_episode_uri": null/true/false,
+    "audiobook_title": null/true/false,
+    "audiobook_uri": null/true/false,
+    "audiobook_chapter_uri": null/true/false,
+    "audiobook_chapter_title": null/true/false,
+    "reason_start": "_________",
+    "reason_end": "_________",
+    "shuffle": null/true/false,
+    "skipped": null/true/false,
+    "offline": null/true/false,
+    "offline_timestamp": _________,
+    "incognito_mode": null/true/false
+  } 
 ```
 
 Technical field Contains
@@ -87,3 +116,10 @@ used.
 - incognito_mode This field indicates whether the track was played during a
 private session (“True”) or not (“False”).
 
+
+**Note**
+if you have an older account the username field might not be there. but it has not cause any problems for me.
+
+### Challenges
+**Easy:** Get your top 5 songs for any given year
+**Harder:** Get your all time top 5 songs
