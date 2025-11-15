@@ -109,7 +109,7 @@ enter, for example, in the Spotify Desktop client’s search box
 to locate an episode of a podcast.
 - **reason_start:**  This field is a value telling why the track started (e.g.
 “trackdone”)
-- reason_end This field is a value telling why the track ended (e.g.
+- **reason_end:**  This field is a value telling why the track ended (e.g.
 “endplay”).
 - **shuffle:**  This field has the value True or False depending on if shuffle
 mode was used when playing the track.
